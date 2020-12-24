@@ -1,4 +1,4 @@
-package com.vamstar.csvread;
+package com.example.csvread;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

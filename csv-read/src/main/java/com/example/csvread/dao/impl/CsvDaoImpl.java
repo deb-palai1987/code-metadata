@@ -1,14 +1,13 @@
-package com.vamstar.csvread.dao.impl;
+package com.example.csvread.dao.impl;
 
-import com.vamstar.csvread.dao.CsvDao;
-import com.vamstar.csvread.dto.MetaData;
+import com.example.csvread.dto.MetaData;
+import com.example.csvread.dao.CsvDao;
 import org.springframework.stereotype.Component;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.Reader;
 import java.net.URL;
-import java.util.Collections;
 
 @Component
 public class CsvDaoImpl implements CsvDao {

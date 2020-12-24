@@ -1,15 +1,14 @@
-package com.vamstar.csvread.dao;
+package com.example.csvread.dao;
 
+import com.example.csvread.dto.MetaData;
 import com.opencsv.CSVReader;
 import com.opencsv.exceptions.CsvValidationException;
-import com.vamstar.csvread.dto.MetaData;
 
 import java.io.IOException;
 import java.io.Reader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLConnection;
-import java.util.Collections;
 import java.util.Optional;
 
 @FunctionalInterface

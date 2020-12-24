@@ -1,4 +1,4 @@
-package com.vamstar.csvread.dto;
+package com.example.csvread.dto;
 
 import com.opencsv.bean.CsvBindByName;
 import lombok.AllArgsConstructor;

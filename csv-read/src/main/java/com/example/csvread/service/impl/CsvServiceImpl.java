@@ -1,12 +1,10 @@
-package com.vamstar.csvread.service.impl;
+package com.example.csvread.service.impl;
 
-import com.vamstar.csvread.dao.CsvDao;
-import com.vamstar.csvread.dto.MetaData;
-import com.vamstar.csvread.service.CsvService;
+import com.example.csvread.dao.CsvDao;
+import com.example.csvread.dto.MetaData;
+import com.example.csvread.service.CsvService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
-import java.util.List;
 
 @Component
 public class CsvServiceImpl implements CsvService {
